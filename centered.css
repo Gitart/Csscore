@@ -1,0 +1,27 @@
+
+ /*Центрирование div на странице*/
+.div-center {
+  
+    margin:          auto;                /*Выравнивание по горизонтали*/
+    justify-content: center;
+    width:           500px;
+    border-radius:   5px; 
+    border:          1px solid #ccc; 
+    height:          auto;
+    background--colors:    #f4ba94 ;
+    display:         flex;              /* центрирует элементы по вертикали */
+    flex-direction:  column;
+    align-items:     center;        /* центрирует элементы по горизонтали */
+    justify-content: center;    /* центрирует элементы по вертикали */
+    text-align:      center;
+    /*display: table-cell;*/
+    vertical-align:  middle ;
+
+    /*Vertical*/
+    position:        absolute;
+    top:             50%;
+    left:            50%;
+    margin-right:   -50%;
+    transform: translate(-50%, -50%);
+    box-shadow:    0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
